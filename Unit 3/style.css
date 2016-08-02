@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	font-size: 30px;
+	background-color: #fff;
+	background: url("http://i.imgur.com/q0FaaAk.jpg");
+	background-size: cover;
+	color: white;
+}
+
+h1,h3 {
+	
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	color: white;
+}
+h3 {
+	font-size: 30px;
+}
+
+#slogan {
+     font-style: italic;
+     font-size: 40px;
+#first {
+	font-size: 30px;
+}
