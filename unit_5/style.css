@@ -1,5 +1,27 @@
-header {
-    background-color: [enter color here];
-    border: 1px black solid;
-    padding: 20px;
+body {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h1, h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid gold;
+	display: inline-block;
 }
