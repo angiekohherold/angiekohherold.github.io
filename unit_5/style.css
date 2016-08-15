@@ -20,17 +20,21 @@ h1 { background-color: #FFED74;
 }
 
 nav { background-color: #E8C66A;
-	  background-color: #E8C66A;
+	  text-decoration-color: black; 
       border: 1px black solid;
       padding: 20px;
  }
  aside { background-color: #FFC675;
+ 		border: 1px black solid;
   }
-  article { background-color: #E89C6C; 
+  article { background-color: #E89C6C;
+  		border: 1px black solid;
   }
   footer { background-color: #FF957E;
+  		border: 1px black solid;
    }
    div, section { background-color: #FFE2B8;
+   					border: 1px black solid;
     }
 
 ul {
