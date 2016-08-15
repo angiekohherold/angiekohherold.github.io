@@ -15,6 +15,21 @@ img {
 	display: block;
 	margin: 0 auto;
 }
+
+h1 { background-color: #FFED74; 
+}
+
+nav { background-color: #E8C66A;
+ }
+ aside { background-color: #FFC675;
+  }
+  article { background-color: #E89C6C; 
+  }
+  footer { background-color: #FF957E;
+   }
+   div, section { background-color: #FFE2B8;
+    }
+
 ul {
 	list-style: none;
 	margin: 0;
