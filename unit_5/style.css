@@ -37,6 +37,6 @@ ul {
 }
 h1, h2 {
 	text-transform: uppercase;
-	border-bottom: 4px solid gold;
-	display: inline-block;
+	border-bottom: 4px solid black;
+	display: inline-block; Header
 }
