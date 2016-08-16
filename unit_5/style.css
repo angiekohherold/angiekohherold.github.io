@@ -46,5 +46,6 @@ h1, h2 {
 	text-transform: uppercase;
 	font-style: italic;
 	border-bottom: 4px solid black;
+	width: 100%;
 	display: inline-block; Header
 }
