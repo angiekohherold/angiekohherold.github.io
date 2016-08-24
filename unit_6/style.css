@@ -1,7 +1,10 @@
 body {
 	font-size: 18px;
+	background: url("http://i.imgur.com/q0FaaAk.jpg");
+	color: white;
 }
-
+ .wrapper { width: 100%; 
+ }
 h1 {
 	font-size: 2em;
 }
@@ -16,7 +19,8 @@ img {
 	margin: 0 auto;
 }
 
-h1 { background-color: #FFED74; 
+h1 { background-color: ;
+	text-align: center;  
 	}
 
 nav { background-color: #E8C66A;
@@ -25,11 +29,12 @@ nav { background-color: #E8C66A;
       padding: 10px;
       
  }
- aside { background-color: #E89C6C;
- 	border: 1px black solid;
+ aside { background-color: #FFED74;
+ 		
+ 		text-align: center;
  		  }
   article { background-color: #E89C6C;
-  		border: 1px black solid;
+  		
   		text-align: center;
   		  }
 
@@ -40,8 +45,10 @@ nav { background-color: #E8C66A;
   		border: 1px black solid;
   		clear: both;
   		text-align: center;
+  		height: 2em;
+  		padding-top: .5em;
    }
-   div, section { background-color: #FFE2B8;
+   div, section, aside { background-color: #FFE2B8;
    					
     }
 
@@ -52,14 +59,14 @@ ul {
 }
 
 li {
-	float: left;
-	width: 50%;
-	height: 6em;
-	outline: 1px solid  #222;
-	text-align: center;
-	line-height:6em;
-	color: #000;
-	background: #fff;
+	
+	height: 2em;
+	padding-left: 2em;
+	padding-top: .5em;
+	text-align: left;
+	line-height: 2em;
+	color: #222;
+	background: #FFE2B8;
 }
 h1, h2 {
 	text-transform: uppercase;
@@ -68,11 +75,15 @@ h1, h2 {
 	display: inline-block; Header
 	border-bottom: px solid black;
 }
-	#about {
+#about {
 	float: left;
+	text-align: center;
+	background: url("http://i.imgur.com/q0FaaAk.jpg");
+	background-size: cover;
+	height: 300px;
 }
 
-	#articles {
+#articles {
 		float: right;
 	}
 
@@ -84,6 +95,6 @@ section {
 
 div {
 
-	width: 49%;
+	width: 50%;
 	display: inline-block;
 }
