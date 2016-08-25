@@ -27,8 +27,14 @@ nav { background-color: #E8C66A;
 	  text-decoration-color: black; 
       border: 1px black solid;
       padding: 10px;
-      
- }
+      font-family: Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	background-color: #FFED74;
+}
+ 
  aside { background-color: #FFED74;
  		
  		text-align: center;
