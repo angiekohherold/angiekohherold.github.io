@@ -1,6 +1,6 @@
 body {
 	font-size: 18px;
-	background: <img src="lighthouse.jpg">
+	background: url("http://i.imgur.com/q0FaaAk.jpg") 
 	color: white;
 }
 .wrapper { 
@@ -81,13 +81,14 @@ h1, h2 {
 	text-transform: uppercase;
 	font-style: italic;
 	width: 100%;
-	display: inline-block; Header
+	display: inline-block; 
 	border-bottom: px solid black;
 }
 #about {
 	float: left;
 	text-align: center;
-	background: url("http://i.imgur.com/q0FaaAk.jpg");
+	font-color: white;
+	background: url("http://i.imgur.com/q0FaaAk.jpg") ;
 	background-size: cover;
 	height: 300px;
 }
@@ -108,3 +109,10 @@ div {
 	display: inline-block;
 }
 
+@media only screen and (min-width: 320px) 
+and (max-width: 768) {
+	.article{
+		float: none;
+		width: auto;
+	}
+}
