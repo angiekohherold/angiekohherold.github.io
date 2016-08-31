@@ -1,0 +1,110 @@
+body {
+	font-size: 18px;
+	background: img src="lighthouse.jpg";
+	color: white;
+}
+.wrapper { 
+	width: 100%; 
+ }
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .4em;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+h1 { 
+	text-align: center;  
+}
+
+nav { 
+	background-color: #E8C66A;
+	text-decoration-color: black; 
+    border: 1px black solid;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	background-color: #FFED74;
+}
+ 
+aside { 
+	background-color: #FFED74;
+ 		
+ 	text-align: center;
+ 		  }
+article { 
+	background-color: #E89C6C;
+  	text-align: center;
+  		  }
+
+ div {
+  	font-size: 1.2em;
+    	  }
+  footer { background-color: #FF957E;
+  		border: 1px black solid;
+  		clear: both;
+  		text-align: center;
+  		height: 2em;
+  		padding-top: .5em;
+   }
+   div, section, aside { background-color: #FFE2B8;
+   					
+    }
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	
+	height: 2em;
+	padding-left: 2em;
+	padding-top: .5em;
+	text-align: left;
+	line-height: 2em;
+	color: #222;
+	background: #FFE2B8;
+}
+h1, h2 {
+	text-transform: uppercase;
+	font-style: italic;
+	width: 100%;
+	display: inline-block; Header
+	border-bottom: px solid black;
+}
+#about {
+	float: left;
+	text-align: center;
+	background: url("http://i.imgur.com/q0FaaAk.jpg");
+	background-size: cover;
+	height: 300px;
+}
+
+#articles {
+		float: right;
+	}
+
+section {
+	background: #222;
+	color: #fff;
+	overflow: auto;
+}
+
+div {
+
+	width: 50%;
+	display: inline-block;
+}
+
