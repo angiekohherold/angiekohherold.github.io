@@ -1,19 +1,18 @@
 body {
 	font-size: 18px;
-	background: url("http://i.imgur.com/q0FaaAk.jpg"); 
-	color: white;
+	color: black;
 }
 .wrapper { 
 	width: 100%; 
  }
 h1 {
 	font-size: 2em;
-	font-color: black;
+	color: black;
 }
 
 h2 {
 	font-size: 1.5em;
-	padding: .4em;
+	padding: 20px;
 }
 
 img {
@@ -91,6 +90,7 @@ h1, h2 {
 	background: url("http://i.imgur.com/q0FaaAk.jpg"); 
 	background-size: cover;
 	height: 300px;
+	color: white;
 }
 
 #articles {
