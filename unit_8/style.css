@@ -26,21 +26,20 @@ h1 {
 
 nav { 
 	background-color: #E8C66A;
-	text-decoration-color: black; 
-    border: 1px black solid;
+	border: 1px black solid;
     padding: 20px;
     font-family: Arial, sans-serif;
 }
 
 a{
 	text-decoration: none;
-	background-color: #FFED74;
+	background-color: ;
 }
  
 aside { 
-	background-color: #FFED74;
- 		
- 	text-align: center;
+	background-color: ;
+ 	text-align: ;
+ 	padding-right: 1em;
  		  }
 article { 
 	background-color: #E89C6C;
@@ -63,8 +62,12 @@ article {
 
 ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 1em;
+	display: block;
+	padding: 40px;
+	width: 200px;
+	text-align: left;
 }
 
 li {
@@ -75,15 +78,16 @@ li {
 	text-align: left;
 	line-height: 2em;
 	color: #222;
-	background: #FFE2B8;
+	
 }
+
 h1, h2 {
 	text-transform: uppercase;
 	font-style: italic;
 	width: 100%;
 	display: inline-block; 
-	border-bottom: px solid black;
 }
+
 #about {
 	float: left;
 	text-align: center;
@@ -96,6 +100,8 @@ h1, h2 {
 #articles {
 		float: right;
 	}
+
+}
 
 section {
 	background: #222;
