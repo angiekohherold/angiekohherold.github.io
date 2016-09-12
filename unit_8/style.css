@@ -1,5 +1,3 @@
-
-
 *,
 *:before,
 *:after {
@@ -10,15 +8,16 @@
 
 body {
 	font-size: 18px;
-	color: black;
-	margin: 0;
 }
-.wrapper { 
-	width: 100%; 
- }
+
+.wrapper {
+	width: 100%;
+	color: #E4E1DB;
+}
+
 h1 {
 	font-size: 2em;
-	color: black;
+	color: #000;
 }
 
 h2 {
@@ -28,45 +27,52 @@ h2 {
 
 img {
 	display: block;
-	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
 }
 
-h1 { 
-	text-align: center;  
+h1 {
+	text-align: center;
 }
 
-nav { 
-	background-color: #E8C66A;
-	border: 1px black solid;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+nav {
+	background-color: white;
+	border: 1px #000 solid;
+	padding: 20px;
+	font-family: Arial,sans-serif;
 }
 
-a{
+a {
 	text-decoration: none;
-	}
- 
-aside { 
- 	padding-right: 1em;
- 		  }
-article { 
-	background-color: #E89C6C;
-  	text-align: center;
-  		  }
+}
 
- div {
-  	font-size: 1.2em;
-    	  }
-  footer { background-color: #FF957E;
-  		border: 1px black solid;
-  		clear: both;
-  		text-align: center;
-  		height: 2em;
-  		padding-top: .5em;
-   }
-   div, section, aside { background-color: #FFE2B8;
-   					
-    }
+aside {
+	padding-right: 1em;
+}
+
+article {
+	background-color: #E4E1DB;
+	text-align: center;
+}
+
+div {
+	font-size: 1.2em;
+}
+
+footer {
+	background-color: #E4E1DB;
+	border: 1px #000 solid;
+	clear: both;
+	text-align: center;
+	height: 2em;
+	padding-top: .5em;
+}
+
+div,
+section,
+aside {
+	background-color: #E4E1DB;
+}
 
 ul {
 	list-style: none;
@@ -79,46 +85,42 @@ ul {
 }
 
 li {
-	
 	height: 2em;
 	padding-left: 2em;
 	padding-top: .5em;
 	text-align: left;
 	line-height: 2em;
 	color: #222;
-	
 }
 
-h1, h2 {
+h1,
+h2 {
 	text-transform: uppercase;
 	font-style: italic;
 	width: 100%;
-	display: inline-block; 
+	display: inline-block;
 }
 
 #about {
 	float: left;
+	width: 50%;
+	padding: 10px;
 	text-align: center;
-	background: url("lighthouse.jpg"); 
+	background: url("lighthouse.jpg");
 	background-size: cover;
-	height: 300px;
-	color: white;
+	height: 309px;
+	color: #fff;
 }
 
 #articles {
-		float: right;
-	}
-
-section {
-	background: #222;
-	color: #fff;
-	overflow: auto;
+	float: right;
+	width: 50%;
+	padding: 10px;
 }
 
-div {
-
-	width: 50%;
-	display: inline-block;
+section {
+	background: #3A7ABA;
+	color: #fff;
 }
 
 .links {
@@ -126,10 +128,10 @@ div {
 	margin-bottom: 10px;
 }
 
-@media only screen and (min-width: 320px) 
-and (max-width: 768px) {
-	#articles, #about {
-		display: block;
+@media screen and (max-width: 768px) {
+	#articles,
+	#about {
+		float: none;
 		width: 100%;
 	}
 }
